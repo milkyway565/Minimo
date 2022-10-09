@@ -4,7 +4,7 @@ $(function () {
     const btn = $(this);
     const loader = btn.find('span');
     $.ajax({
-      url: '/data.html',
+      url: 'data.html',
       type: 'GET',
       beforeSend: function () {
         btn.attr('disabled', true);
